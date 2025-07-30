@@ -13,6 +13,8 @@ import Greeting2 from "./4_ConditionalRendering/Ex/Greeting2";
 import StyleCard from "./5_StyleSheet/StyleCard";
 import ProfileCard from "./5_StyleSheet/ProfileCard";
 import IconComponent from "./5_StyleSheet/IconComponent";
+import Copy from "./6_Copy/Copy";
+import UseStateEx from "./7_UseState/UseStateEx";
 
 const App = () => {
   return (
@@ -28,9 +30,11 @@ const App = () => {
 {/*       <Weather temperature={15}/>
       <UserStatus loggedIn={true} isAdmin={true}/>
       <Greeting2 timeOfDay={"morning"}/> */}
-      <StyleCard/>
+{/*       <StyleCard/>
       <ProfileCard/>
-      <IconComponent/>
+      <IconComponent/> */}
+ {/*      <Copy/> */}
+      <UseStateEx/>
     </div>
   );
 };
