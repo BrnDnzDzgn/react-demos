@@ -15,6 +15,8 @@ import ProfileCard from "./5_StyleSheet/ProfileCard";
 import IconComponent from "./5_StyleSheet/IconComponent";
 import Copy from "./6_Copy/Copy";
 import UseStateEx from "./7_UseState/UseStateEx";
+import ObjectEx from "./7_UseState/ObjectEx";
+import ShareState from "./7_UseState/ShareState";
 
 const App = () => {
   return (
@@ -34,7 +36,9 @@ const App = () => {
       <ProfileCard/>
       <IconComponent/> */}
  {/*      <Copy/> */}
-      <UseStateEx/>
+      {/* <UseStateEx/> */}
+{/*       <ObjectEx/> */}
+      <ShareState/>
     </div>
   );
 };
