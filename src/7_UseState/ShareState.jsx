@@ -1,6 +1,6 @@
 import { useState } from "react"
-import ComponentOne from "./components/ComponentOne"
-import ComponentTwo from "./components/ComponentTwo"
+import ComponentOne from "./ShareStateComponents/ComponentOne"
+import ComponentTwo from "./ShareStateComponents/ComponentTwo"
 
 const ShareState = () => {
 

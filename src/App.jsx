@@ -17,6 +17,9 @@ import Copy from "./6_Copy/Copy";
 import UseStateEx from "./7_UseState/UseStateEx";
 import ObjectEx from "./7_UseState/ObjectEx";
 import ShareState from "./7_UseState/ShareState";
+import FunctionalState from "./7_UseState/FunctionalState";
+import GenerateRandom from "./7_UseState/GenerateRandom";
+import UseStateEx2 from "./7_UseState/UseStateEx2";
 
 const App = () => {
   return (
@@ -38,7 +41,10 @@ const App = () => {
  {/*      <Copy/> */}
       {/* <UseStateEx/> */}
 {/*       <ObjectEx/> */}
-      <ShareState/>
+{/*       <ShareState/> */}
+{/*       <FunctionalState/> */}
+{/*       <GenerateRandom/> */}
+      <UseStateEx2/>
     </div>
   );
 };
